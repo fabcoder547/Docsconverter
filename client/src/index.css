@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+ font-family: 'Yusei Magic', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root{
+position: relative;
+ min-height: 100vh;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card_row{
+  margin-bottom: 20px;
+  
+}
+.card_col{
+       border-radius: 4px;
+      background: #fff;
+      cursor: pointer;
+      margin: 7px 0;
+} 
+
+.card_col:hover{
+  
+}
+
+.card{
+      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      background-color: #273247;;
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 15px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.dropzone{
+  background-color: #f2f2f2;
+  width: 90%;
+  margin: 5% auto;
+  border: 2px dashed #c9c5c5;
+  display: table;
+  height: 35vh;
+  color: #1f2126;
+}
+.dropzone:hover{
+  cursor: pointer;
+}
+.drop_zone_para{
+  display: table-cell;
+  vertical-align: middle;
+}
+.download_btn{
+  width: 90%;
+  height: 8vh;
+  margin-top: 0;
+  background-color: #152242;
+  border: 1px solid #152242;
+  color: #fff;
+ 
+}
+.download_btn:hover{
+  color: #fff;
+  background-color: #152242;
+}
+.content,.main_content{
+  padding-bottom: 2.5rem;
+  width: 92%;
+  margin: 0 auto;
+}
+.footer{
+  background-color: #152242;
+  color: #fff;
+
+  padding: 10px 20px;
+}
+
+.service_header{
+  padding-bottom: 2px;
+  border-bottom: 1.4px dashed #152242;
+}
